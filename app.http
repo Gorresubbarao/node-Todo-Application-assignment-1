@@ -33,12 +33,12 @@ GET https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/?category=LE
 ###
 
 
-GET https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/1/
+GET https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/6/
 
 ###
 
 
-GET https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/agenda/?date=2021-12-12
+GET https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/agenda/?date=2021-2-12
 
 ###
 
@@ -62,12 +62,12 @@ PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/1/
 Content-Type: application/json
 
 {
-  "status": "DONE"
+  "status": "IN PROGRESS"
 }
 
 ###
 
-PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/1/
+PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/2/
 Content-Type: application/json
 
 {
@@ -76,7 +76,7 @@ Content-Type: application/json
 
 ###
 
-PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/1/
+PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/2/
 Content-Type: application/json
 
 {
@@ -86,7 +86,7 @@ Content-Type: application/json
 ###
 
 
-PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/1/
+PUT https://venkatasubbaraohow31njscadoqbs.drops.nxtwave.tech/todos/2/
 Content-Type: application/json
 
 {

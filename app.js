@@ -268,6 +268,7 @@ app.post('/todos/', checkRequestsBody, async (request, response) => {
         ;`
 
   const createUser = await db.run(addTodoQuery)
+  const {todoId} = createUser.lastID
   console.log(createUser)
   response.send('Todo Successfully Added')
 })
